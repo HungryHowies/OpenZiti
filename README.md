@@ -146,6 +146,8 @@ source ~/.ziti/quickstart/$(hostname -s)/$(hostname -s).env
 ```
 echo $ZITI_HOME
 ```
+
+### Ziti Admin Console
 ```
 wget https://github.com/openziti/ziti-console/releases/latest/download/ziti-console.zip
 ```
