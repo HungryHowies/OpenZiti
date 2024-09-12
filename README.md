@@ -42,9 +42,13 @@ reboot
 ### Open Ports
 
 8440/tcp: edge controller providing router control plane
+
 8441/tcp: edge controller providing client sessions
+
 8442/tcp: edge router providing client connections
+
 8443/tcp: Ziti Admin Console (ZAC) [optional]
+
 Change directory
 
 ```
