@@ -156,7 +156,9 @@ cd /root/.ziti/quickstart/openziti.hungry-howard.com
 vi openziti.hungry-howard.com.yaml
 ```
 
-# add the following lines
+# add the following lines 
+
+Thi would be under  the section called - binding: edge-management
 	     
 ```
       - binding: zac
