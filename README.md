@@ -69,6 +69,8 @@ sudo systemctl restart  ziti-edge-tunnel.service
 ```
 sudo systemctl status  ziti-edge-tunnel.service
 ```
+### expressInstall Setup
+
 ```
 export EXTERNAL_DNS="openziti.hungry-howard.com"
 ```
