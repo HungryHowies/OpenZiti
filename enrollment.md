@@ -2,7 +2,9 @@
 
 Download and Copy token fro Web UI
 
+
 Create file for clients and enroll
+Add the token to JWT file and the JSON file is what ever name you want it to be. 
 ```
 vi http-clients.jwt
 ```
@@ -17,14 +19,4 @@ vi http-server.jwt
 ziti-edge-tunnel enroll --jwt ./http-server.jwt --identity ./http-server.json
 ```
 
-```
-./ziti-edge-tunnel enroll --jwt ./myTunneler.jwt --identity ./myTunneler.json
-```
 
-## Get the token and place it in a file. Save  file. excute the following
-```
-vi nginx.jwt
-```
-```
-ziti-edge-tunnel enroll --jwt ./nginx.jwt --identity ./nginx.json
-```
