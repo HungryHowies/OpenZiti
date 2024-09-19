@@ -140,9 +140,7 @@ sudo systemctl -q status ziti-controller --lines=0 --no-pager
 ```
 sudo systemctl -q status ziti-router --lines=0 --no-pager
 ```
-```
-source ~/.ziti/quickstart/$(hostname -s)/$(hostname -s).env
-```
+
 ```
 echo $ZITI_HOME
 ```
