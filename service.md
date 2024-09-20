@@ -19,3 +19,8 @@ Start the server-side tunneler  with the HTTP server identity
 Start the client-side tunneler using the HTTP client identity.
 
 Access the HTTP server securely over the OpenZiti zero trust overlay
+
+##  Enrollment
+
+Down load the JWT token  and copy it to file in OpenZiti server
+ instruction found [here](https://github.com/HungryHowies/OpenZiti/blob/33cbc144359bedc7774cc79a1261ddbe6c4976a4/enrollment.md) 
