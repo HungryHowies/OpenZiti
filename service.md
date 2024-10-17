@@ -23,4 +23,16 @@ Access the HTTP server securely over the OpenZiti zero trust overlay
 ##  Enrollment
 
 Down load the JWT token  and copy it to file in OpenZiti server
- instruction found [here](https://github.com/HungryHowies/OpenZiti/blob/33cbc144359bedc7774cc79a1261ddbe6c4976a4/enrollment.md) 
+instruction found [here](https://github.com/HungryHowies/OpenZiti/blob/33cbc144359bedc7774cc79a1261ddbe6c4976a4/enrollment.md) 
+
+ Execute the Ziti tunneler on the client side. This would be  the sever json file  from the server.
+ 
+ ```
+ziti-edge-tunnel run --identity http-server.json
+```
+
+ On the server side execute the tunneler with the client json file.
+ 
+ ```
+ziti-edge-tunnel run --identity http-clients.json
+```
