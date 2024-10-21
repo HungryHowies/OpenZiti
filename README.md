@@ -9,7 +9,7 @@ sudo timedatectl set-timezone America/Chicago
 sudo apt install net-tools
 ```
 ```
-sudo apt install mlocate
+sudo apt install plocate
 ```
 ```
 sudo apt install plocate
